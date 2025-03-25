@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+    Name: Yug Patel
+    Name of File: thankyouhw3.html
+    Date Created: 12/3/2024
+    Date Last Edited: 12/3/2024
+    Description: Thank you page after hitting submit on medical registration form
+-->
+<html lang="en">
+    <head>
+        <title>Thank You!</title>
+        <link rel="stylesheet" href="hw4.css">
+        <style>
+            /* CSS for centering the header */
+            header{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+            /* CSS for moving logo to top left */
+
+        #logo {
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <table>
+                <tr>
+                    <td>
+                        <img src="Hospitol.png" alt="logo" width = "130px" id="logo">
+                    </td>
+                    <td>
+                        <h1>Yug's Hospital</h1>
+                    </td>
+                        
+                </tr>
+            </table>
+        </header>
+        <hr />
+
+        <center>
+            <h2>Your Submission Was Successful</h2>
+            <p>Thank you for registering</p>
+            <form action="hw3.html">
+                <input type= "submit" value="Submit Another Form" />
+            </form>
+        </center>
+
+        <script>
+            const d = new Date();
+            let doutput = d.toLocaleDateString();
+            document.getElementById("today").innerHTML = doutput;
+        </script>
+    </body>
+</html>
