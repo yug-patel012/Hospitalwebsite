@@ -1,0 +1,100 @@
+  /*
+ Name: Yug Patel
+Name of File: hw4.css
+Date Created: 12/3/24
+Date last edited: 12/3/2024
+Version: 1.4
+Description: Medical Patient Registration Form
+*/
+body{
+    background-color:rgb(146, 220, 138);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align:right; 
+}
+
+.td1{
+    text-align: right;
+}
+
+.pwd-message{
+    position: relative;
+    top: -130px;
+    left: 0px;
+    background-color: transparent;
+    width:  170px;
+    color: red;
+    font-size: 12px;
+
+}
+
+table.output,
+    table.output,
+    tr.output{
+        width: 500px;
+        background-color: #e3e1a8;
+        padding: 10px;
+        border-spacing: 2px;
+        border-radius: 30px;
+        color: black;
+    }
+
+td.outputdata{
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 30px;
+    color: black;
+/* Styles for custom alert */
+
+#alert-box {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+#alert-content {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
+
+#alert-content h3 {
+    margin-top: 20px;
+    font-size: 18px; 
+}
+
+#close-alert {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #b0a0dd;
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    height: 22px;
+    width: 65px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.15s, border-width 0.15s;
+    margin-top: 10px;
+}
+}
